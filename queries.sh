@@ -1,6 +1,6 @@
 #! /bin/bash
 
-PSQL="psql --username=postgres --dbname=worldcup --no-align --tuples-only -c"
+PSQL="psql --username=postgres --dbname=worldcup -t --no-align -c"
 
 # Do not change code above this line. Use the PSQL variable above to query your database.
 
